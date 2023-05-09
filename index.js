@@ -29,3 +29,4 @@ CFonts.say('NEOXR BOT', {
    font: 'console',
    align: 'center'
 }), start()
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
